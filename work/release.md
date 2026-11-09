@@ -20,3 +20,15 @@ Sources reviewed Nov9: https://developer.mozilla.org/en-US/docs/Web/HTML/Referen
 
 ## Release status
 Publication/deployment outcomes appended after operations. Vercel CLI signed out; temporary deployment may provide a review link. Do not claim permanent production hosting until verified.
+
+## Final observed release
+- Public source published: https://github.com/Burnout38x/document-evidence-desk (initial commit73db91e).
+- Vercel anonymous deploy succeeded, READY. Temporary URL https://speedy-cypress-eza6rph.tmp.now expires roughly one hour after deployment. It is NOT a permanent portfolio destination.
+- Hosted browser: fetch404 suggested question produces one relevant source note; Save note action invoked without console errors. Downloaded file contents were not independently inspected.
+- Hosted GET /api/answer returns {"available":false}; no paid calls.
+- Final layouts at320/390/768/1280 had no observed horizontal overflow. 320px header overlap repaired. Source-library disclosure expands; modal Escape restores focus; local console no errors.
+- Desktop screenshot retained outside repo: outputs/evidence-desk-preview.png.
+- Vercel CLI and in-app browser are signed out. Permanent deployment and final portfolio link remain pending user account access. The expiring temporary URL was not added to the public portfolio.
+
+## Resume
+Import this GitHub repo into the user's Vercel account with Vite/root ./ and no environment variables for evidence mode. Verify the permanent URL, then add the product beside NaijaGameHub in outputs/portfolio with a screenshot and accurate Evidence mode label. Connect AI later following work/provider.md; do not expose credentials or enable without the durable ledger and a paid smoke test within the approved $5 ceiling.

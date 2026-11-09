@@ -8,3 +8,6 @@ dist/
 work/*packet.json
 work/plan.json
 work/pipeline.json
+.vercel
+work/*-result.json
+work/context-update.json
