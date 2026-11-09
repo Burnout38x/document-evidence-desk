@@ -1,0 +1,7 @@
+.git
+.argon
+work
+node_modules
+.env*
+README.md
+tests

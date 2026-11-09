@@ -1,0 +1,178 @@
+{
+  "generatedAt": "2026-11-09T07:29:46.202Z",
+  "method": "Deterministic lexical retrieval over curated reading notes. 22 fixtures: 20 development questions and 2 independent review probes added without retrieval tuning. Hit means expected passage appears in the top 4. Not a held-out benchmark or an AI answer-quality evaluation.",
+  "total": 22,
+  "passed": 20,
+  "metrics": {
+    "retrievalHitRate": 0.9333333333333333,
+    "abstentionAccuracy": 0.8571428571428571
+  },
+  "cases": [
+    {
+      "question": "What is the difference between no-cache and no-store?",
+      "expected": "cache-validation",
+      "passed": true,
+      "actual": [
+        "cache-validation"
+      ]
+    },
+    {
+      "question": "Can shared caches store personalized private responses?",
+      "expected": "cache-private",
+      "passed": true,
+      "actual": [
+        "cache-private"
+      ]
+    },
+    {
+      "question": "How does ETag validation return 304?",
+      "expected": "cache-etag",
+      "passed": true,
+      "actual": [
+        "cache-etag"
+      ]
+    },
+    {
+      "question": "Is it safe to retry a POST request?",
+      "expected": "idempotency-retry",
+      "passed": true,
+      "actual": [
+        "idempotency-retry"
+      ]
+    },
+    {
+      "question": "Are PUT and DELETE idempotent methods?",
+      "expected": "idempotency-methods",
+      "passed": true,
+      "actual": [
+        "idempotency-methods"
+      ]
+    },
+    {
+      "question": "Why does fetch not reject a 404?",
+      "expected": "fetch-status",
+      "passed": true,
+      "actual": [
+        "fetch-status"
+      ]
+    },
+    {
+      "question": "How do I cancel fetch with AbortController?",
+      "expected": "fetch-abort",
+      "passed": true,
+      "actual": [
+        "fetch-abort"
+      ]
+    },
+    {
+      "question": "Can I read a fetch response body twice?",
+      "expected": "fetch-body",
+      "passed": true,
+      "actual": [
+        "fetch-body"
+      ]
+    },
+    {
+      "question": "How do I label a form input?",
+      "expected": "labels-explicit",
+      "passed": true,
+      "actual": [
+        "labels-explicit",
+        "labels-click"
+      ]
+    },
+    {
+      "question": "How does a label help checkbox clicking?",
+      "expected": "labels-click",
+      "passed": true,
+      "actual": [
+        "labels-click"
+      ]
+    },
+    {
+      "question": "When should I use aria-label?",
+      "expected": "labels-hidden",
+      "passed": true,
+      "actual": [
+        "labels-hidden"
+      ]
+    },
+    {
+      "question": "Can I put an API key in a VITE variable?",
+      "expected": "vite-client",
+      "passed": true,
+      "actual": [
+        "vite-server",
+        "vite-client"
+      ]
+    },
+    {
+      "question": "Where should private API keys live?",
+      "expected": "vite-server",
+      "passed": true,
+      "actual": [
+        "vite-server"
+      ]
+    },
+    {
+      "question": "Are Vite environment variables strings?",
+      "expected": "vite-types",
+      "passed": true,
+      "actual": [
+        "vite-types",
+        "vite-client",
+        "vite-server"
+      ]
+    },
+    {
+      "question": "What is the weather in Tokyo?",
+      "expected": "insufficient",
+      "passed": true,
+      "actual": []
+    },
+    {
+      "question": "How can I train a neural network?",
+      "expected": "insufficient",
+      "passed": true,
+      "actual": []
+    },
+    {
+      "question": "What is the best pizza recipe?",
+      "expected": "insufficient",
+      "passed": true,
+      "actual": []
+    },
+    {
+      "question": "Which database should my server use for medical records?",
+      "expected": "insufficient",
+      "passed": true,
+      "actual": []
+    },
+    {
+      "question": "What is the price of Bitcoin?",
+      "expected": "insufficient",
+      "passed": true,
+      "actual": []
+    },
+    {
+      "question": "How do I configure Kubernetes autoscaling?",
+      "expected": "insufficient",
+      "passed": true,
+      "actual": []
+    },
+    {
+      "question": "What does 404 mean?",
+      "expected": "fetch-status",
+      "passed": false,
+      "actual": []
+    },
+    {
+      "question": "What is the private key of Bitcoin?",
+      "expected": "insufficient",
+      "passed": false,
+      "actual": [
+        "vite-server"
+      ]
+    }
+  ]
+}
